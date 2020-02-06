@@ -20,9 +20,10 @@ cask "google-chrome"
 cask "google-japanese-ime"
 cask "visual-studio-code"
 cask "insomnia"
-cask "keepingyouawake"
 cask "iina"
 cask "yacreader"
+cask "qfinder-pro"
+cask "keepingyouawake"
 cask "keyboardcleantool"
 
 mas "Slack", id: 803453959
