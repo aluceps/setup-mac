@@ -7,6 +7,8 @@ brew "tig"
 brew "jq"
 brew "fish"
 brew "peco"
+brew "colordiff"
+brew "vim"
 brew "ffmpeg"
 brew "kotlin"
 brew "mas"
@@ -22,12 +24,15 @@ cask "visual-studio-code"
 cask "insomnia"
 cask "iina"
 cask "yacreader"
+cask "transmission"
 cask "qfinder-pro"
 cask "keepingyouawake"
 cask "keyboardcleantool"
+cask "onyx"
 
 mas "Slack", id: 803453959
 mas "Skitch", id: 425955336
 mas "TweetDeck", id: 485812721
 mas "WinArchiver", id: 413215883
 mas "Kindle", id: 405399194
+mas "Pocket", id: 568494494
