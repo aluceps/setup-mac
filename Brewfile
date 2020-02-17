@@ -30,6 +30,7 @@ cask "qfinder-pro"
 cask "keepingyouawake"
 cask "keyboardcleantool"
 cask "onyx"
+cask "skype"
 
 mas "Slack", id: 803453959
 mas "Skitch", id: 425955336
