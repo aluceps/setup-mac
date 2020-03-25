@@ -10,6 +10,7 @@ brew "peco"
 brew "colordiff"
 brew "vim"
 brew "ffmpeg"
+brew "scrcpy"
 brew "kotlin"
 brew "mas"
 
