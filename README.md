@@ -10,6 +10,10 @@ Install applications for development.
 
 ## Installation
 
+1. installing homebrew
+2. installing mas from homebrew
+3. login to apple store
+
 ```
 brew bundle
 ```
