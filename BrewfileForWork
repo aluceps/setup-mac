@@ -27,6 +27,9 @@ cask "insomnia"
 cask "typora"
 cask "keepingyouawake"
 cask "keyboardcleantool"
+cask "charles"
+cask "notion"
+cask "deepl"
 
 mas "Slack", id: 803453959
 mas "Skitch", id: 425955336
