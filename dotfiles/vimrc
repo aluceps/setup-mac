@@ -1,0 +1,43 @@
+if &compatible
+  set nocompatible
+endif
+
+set runtimepath+=/Users/takano/.cache/dein/repos/github.com/Shougo/dein.vim
+
+if dein#load_state('/Users/takano/.cache/dein')
+  call dein#begin('/Users/takano/.cache/dein')
+
+  call dein#add('/Users/takano/.cache/dein/repos/github.com/Shougo/dein.vim')
+
+  " plugins
+  call dein#add('vim-airline/vim-airline')
+  call dein#add('sheerun/vim-polyglot')
+  call dein#add('cocopon/iceberg.vim')
+
+  call dein#end()
+  call dein#save_state()
+endif
+
+" UI settings
+set number
+set cursorline
+set laststatus=2
+
+" tab settings
+set tabstop=4
+set shiftwidth=4
+
+" search settings
+set ignorecase
+set smartcase
+set incsearch
+set hlsearch
+nmap <Esc><Esc> :nohlsearch<CR><Esc>
+
+colorscheme iceberg
+filetype plugin indent on
+syntax enable
+
+if dein#check_install()
+  call dein#install()
+endif
