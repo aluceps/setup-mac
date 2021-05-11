@@ -1,3 +1,4 @@
+tap "homebrew/cask"
 cask_args appdir: "/Applications"
 
 brew "git"
@@ -13,23 +14,23 @@ brew "scrcpy"
 brew "kotlin"
 brew "mas"
 
-brew install "iterm2" --cask
-brew install "appcleaner" --cask
-brew install "the-unarchiver" --cask
-brew install "1password" --cask
-brew install "dropbox" --cask
-brew install "google-chrome" --cask
-brew install "google-japanese-ime" --cask
-brew install "android-studio" --cask
-brew install "visual-studio-code" --cask
-brew install "insomnia" --cask
-brew install "typora" --cask
-brew install "keepingyouawake" --cask
-brew install "keyboardcleantool" --cask
-brew install "charles" --cask
-brew install "notion" --cask
-brew install "deepl" --cask
-brew install "kap" --cask
+cask "iterm2"
+cask "appcleaner"
+cask "the-unarchiver"
+cask "1password"
+cask "dropbox"
+cask "google-chrome"
+cask "google-japanese-ime"
+cask "android-studio"
+cask "visual-studio-code"
+cask "insomnia"
+cask "typora"
+cask "keepingyouawake"
+cask "keyboardcleantool"
+cask "charles"
+cask "notion"
+cask "deepl"
+cask "kap"
 
 mas "Slack", id: 803453959
 mas "Skitch", id: 425955336
