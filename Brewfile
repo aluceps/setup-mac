@@ -36,6 +36,7 @@ cask "kap"
 
 mas "Slack", id: 803453959
 mas "Skitch", id: 425955336
+mas "Twitter", id: 1482454543
 mas "WinArchiver", id: 413215883
 mas "Kindle", id: 405399194
 mas "Pocket", id: 568494494
