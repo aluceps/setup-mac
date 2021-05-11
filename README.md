@@ -18,14 +18,20 @@ Install applications for development.
 sudo softwareupdate --install-rosetta
 ```
 
-4. login to apple store
-5. install tools
+4. install powerline fonts
+
+```
+https://github.com/powerline/fonts
+```
+
+5. login to apple store
+6. install tools
 
 ```
 brew bundle
 ```
 
-6. setup tools
+7. setup tools
 
 ```
 cd /path/to/setup-mac
