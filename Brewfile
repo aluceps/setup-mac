@@ -13,6 +13,7 @@ brew "ffmpeg"
 brew "scrcpy"
 brew "kotlin"
 brew "mas"
+brew "coreutils"
 
 cask "iterm2"
 cask "appcleaner"
