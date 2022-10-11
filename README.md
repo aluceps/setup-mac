@@ -33,7 +33,21 @@ brew bundle
 
 7. setup tools step by step
 
+See the shell scripts.
 ```
 cd /path/to/setup-mac
-sh setup-shell/*
+cat fisher.sh
+...
 ```
+
+8. default shell
+
+See https://github.com/aluceps/fish-shell
+
+9. detail settings
+
+- track pad
+- keyboard and IME
+- screensavor
+- spotlight
+- screenshot preview
