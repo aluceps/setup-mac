@@ -31,7 +31,7 @@ https://github.com/powerline/fonts
 brew bundle
 ```
 
-7. setup tools
+7. setup tools step by step
 
 ```
 cd /path/to/setup-mac
