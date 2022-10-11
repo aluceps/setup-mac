@@ -18,11 +18,11 @@ brew "coreutils"
 cask "iterm2"
 cask "appcleaner"
 cask "the-unarchiver"
-cask "1password"
+# cask "1password"
 cask "dropbox"
 cask "google-chrome"
 cask "google-japanese-ime"
-cask "android-studio"
+# cask "android-studio"
 cask "visual-studio-code"
 cask "insomnia"
 cask "typora"
@@ -33,7 +33,7 @@ cask "notion"
 cask "deepl"
 cask "kap"
 
-mas "Slack", id: 803453959
-mas "Skitch", id: 425955336
-mas "WinArchiver", id: 413215883
-mas "Pocket", id: 568494494
+# mas "Slack", id: 803453959
+# mas "Skitch", id: 425955336
+# mas "WinArchiver", id: 413215883
+# mas "Pocket", id: 568494494
