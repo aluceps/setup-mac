@@ -1,0 +1,1 @@
+cp -p ./dotfiles/tigrc ~/.tigrc
