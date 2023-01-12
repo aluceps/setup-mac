@@ -34,6 +34,7 @@ cask "keyboardcleantool"
 cask "onyx"
 cask "skype"
 cask "kap"
+cask "daisydisk"
 
 mas "Slack", id: 803453959
 mas "Skitch", id: 425955336
