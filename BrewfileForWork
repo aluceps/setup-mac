@@ -12,7 +12,6 @@ brew "vim"
 brew "ffmpeg"
 brew "scrcpy"
 brew "kotlin"
-brew "mas"
 brew "coreutils"
 
 cask "iterm2"
@@ -26,9 +25,4 @@ cask "visual-studio-code"
 cask "insomnia"
 cask "keepingyouawake"
 cask "keyboardcleantool"
-cask "notion"
-
-# mas "Slack", id: 803453959
-# mas "Skitch", id: 425955336
-# mas "WinArchiver", id: 413215883
-# mas "Pocket", id: 568494494
+cask "deepl"
