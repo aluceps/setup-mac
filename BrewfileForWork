@@ -1,34 +1,23 @@
 tap "homebrew/cask"
 cask_args appdir: "/Applications"
 
+brew "fish"
+brew "peco"
+brew "vim"
 brew "git"
 brew "ghq"
 brew "tig"
-brew "jq"
-brew "fish"
-brew "peco"
-brew "colordiff"
-brew "vim"
-brew "ffmpeg"
 brew "scrcpy"
-brew "kotlin"
-brew "mas"
-brew "coreutils"
+brew "colordiff"
+brew "ffmpeg"
 
 cask "iterm2"
 cask "raycast"
-cask "appcleaner"
-cask "the-unarchiver"
-cask "dropbox"
 cask "google-chrome"
 cask "google-japanese-ime"
 cask "visual-studio-code"
 cask "insomnia"
-cask "keepingyouawake"
+cask "caffeine"
 cask "keyboardcleantool"
-cask "notion"
-
-# mas "Slack", id: 803453959
-# mas "Skitch", id: 425955336
-# mas "WinArchiver", id: 413215883
-# mas "Pocket", id: 568494494
+cask "appcleaner"
+cask "the-unarchiver"
