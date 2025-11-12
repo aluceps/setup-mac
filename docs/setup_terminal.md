@@ -1,53 +1,5 @@
 # setup terminal
 
-macの初期状態を想定して次の手順でターミナル環境を整える。
-
-## homebrew
-
-1. zsh環境で[Homebrew](https://brew.sh/ja/)をインストール
-2. インストール後のメッセージに従いパスを通す
-
-```sh
-$ (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/xxxxx/.zprofile
-$ eval "$(/opt/homebrew/bin/brew shellenv)"
-```
-
-3. (optional) Brewfileがあれば実行し環境を復元する
-
-## fish
-
-### installation
-
-1. fishのインストール
-
-```sh
-$ brew install fish
-```
-
-2. デフォルトシェルの変更
-
-```sh
-$ type fish
-fish is /opt/homebrew/bin/fish
-
-$ sudo echo "/opt/homebrew/bin/fish" >> /etc/shells
-$ chsh -s /opt/homebrew/bin/fish
-```
-
-### customize
-
-1. プラグインマネージャ[fisher](https://github.com/jorgebucaran/fisher)のインストール
-
-```sh
-$ curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish | source && fisher install jorgebucaran/fisher
-```
-
-## iterm
-
-```sh
-$ brew install iterm2 --cask
-```
-
 ## git
 
 ### common

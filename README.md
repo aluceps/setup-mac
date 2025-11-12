@@ -1,53 +1,82 @@
 # setup-mac
 
-Install applications for development.
-
-## Requirements
-
-- [Homebrew](https://github.com/Homebrew/brew)
-- [Homebrew Cask](https://github.com/Homebrew/homebrew-cask)
-- [mas](https://github.com/mas-cli/mas)
+macの初期状態を想定して次の手順でターミナル環境を整える。
 
 ## Installation
 
-1. installing homebrew
-2. installing mas from homebrew
-3. installing rosetta2 (only mac M1)
+1. iTerm2
+1. Homebrew
+1. fish
+1. fonts
+1. etc
+
+## iTerm2
+
+- [iTerm2](https://iterm2.com/)
+
+### settings
+
+- Settings > Profiles > Colors > uncheck Use separate colors for light and dark mode
+- Settings > Profiles > Terminal > check Unlimited scrollback
+
+## Homebrew
+
+1. zsh環境で[Homebrew](https://brew.sh/ja/)をインストール
+2. インストール後のメッセージに従いパスを通す
+
+```sh
+$ (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/xxxxx/.zprofile
+$ eval "$(/opt/homebrew/bin/brew shellenv)"
+```
+## fish
+
+1. fishのインストール
+
+```sh
+$ brew install fish
+```
+
+2. デフォルトシェルの変更
+
+```sh
+$ type fish
+fish is /opt/homebrew/bin/fish
+
+$ sudo echo "/opt/homebrew/bin/fish" >> /etc/shells
+$ chsh -s /opt/homebrew/bin/fish
+```
+
+### tools
 
 ```
-sudo softwareupdate --install-rosetta
+brew install ghq git peco scrcpy tig vim
 ```
 
-4. install powerline fonts
+### fisher
 
-```
-https://github.com/powerline/fonts
-```
+1. プラグインマネージャ[fisher](https://github.com/jorgebucaran/fisher)のインストール
 
-5. login to apple store
-6. install tools
-
-```
-brew bundle
+```sh
+$ curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish | source && fisher install jorgebucaran/fisher
 ```
 
-7. setup tools step by step
+2. プラグインのインストール
 
-See the shell scripts.
+- [bobthefish](https://github.com/oh-my-fish/theme-bobthefish)
+- [plugin-peco](https://github.com/oh-my-fish/plugin-peco)
+- [fish-ghq](https://github.com/decors/fish-ghq)
+
+## fonts
+
+- [Powerline fonts](https://github.com/powerline/fonts)
+
 ```
-cd /path/to/setup-mac
-cat fisher.sh
-...
+SourceCodePro Nerd Font 13pt
 ```
 
-8. default shell
+## etc
 
-See https://github.com/aluceps/fish-shell
-
-9. detail settings
-
-- track pad
-- keyboard and IME
-- screensavor
-- spotlight
-- screenshot preview
+- [dotfiles](dotfiles)
+- [plugins](setup-shell)
+- [vscode](docs/setup_vscode.md)
+- [java](docs/setup_java.md)
